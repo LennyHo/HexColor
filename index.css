@@ -1,0 +1,45 @@
+/* put the import google font */
+
+body {
+    font-family: "comfortaa", cursive;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+}
+
+.hex-colors h1 {
+    font-size: 2rem;
+    animation: colorchange 5s infinite alternate;
+}
+
+.hex-colors h2 {
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+#hex-code {
+    color: white;
+}
+
+@keyframes colorchange {
+    0% {
+        color: black;
+    }
+    20% {
+        color: wheat;
+    }
+    40% {
+        color: white;
+    }
+}
+
+@media (max-width: 480px) {
+    .hex-colors h1 {
+        font-size: 1.5rem;
+    }
+    .hex-colors h2 {
+        font-size: 1.5rem;
+    }
+}
